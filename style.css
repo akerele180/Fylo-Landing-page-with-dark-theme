@@ -290,6 +290,9 @@ button:hover {
 }
 
 @media screen and (min-width:360px) and (max-width: 873px) {
+    form h3 {
+        font-size : 1.6rem;
+    }
     form button {
         padding: 19px 22%;
     }
@@ -323,7 +326,8 @@ button:hover {
         padding-bottom: 80px;
     }
     section.dark-blue {
-        margin-top: -22px;
+        margin-top: -58%;
+        padding-top: 67%;
     }
     section.dark-blue div.container, div.another-part {
         display: block;
