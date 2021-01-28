@@ -256,6 +256,7 @@ ul.social-icons li {
 ul#location {
     flex-basis: 31%;
     line-height: 1.7;
+/*     flex: 2 */
 }
 li.location {
     list-style-image: url(./images/icon-location.svg);
@@ -288,6 +289,27 @@ button:hover {
         padding-bottom: 20px;
     }
 }
+@media screen and (min-width: 384px) and (max-width: 400px) {
+    section.dark-blue {
+        margin-top: -79%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 418px) {
+    section.dark-blue {
+        margin-top: -76%;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 439px) {
+    section.dark-blue {
+        margin-top: -69%;
+    }
+}
+@media screen and (min-width: 440px) and (max-width: 478px) {
+    section.dark-blue {
+        margin-top: -65%;
+        padding-top: 75%;
+    }
+}
 
 @media screen and (min-width:360px) and (max-width: 873px) {
     form h3 {
@@ -300,6 +322,17 @@ button:hover {
         margin: 0;
     }
 }
+@media screen and (min-width: 375px) and (max-width: 383px) {
+    section.dark-blue {
+        margin-top: -82%;
+        padding-top: 90%;
+    }
+    article button {
+        padding: 19px 97px;
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 885px){
     section#testaments::before {
         transform: translate(25px, -33px);
